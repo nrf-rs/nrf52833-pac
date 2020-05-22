@@ -1,0 +1,23 @@
+[package]
+version = "0.9.0"
+authors = [
+    "Erik Svensson <erik.public@gmail.com",
+]
+description = "Peripheral access API for nrf52833 microcontrollers"
+keywords = ["no-std", "arm", "cortex-m", "nrf52", "nrf52833"]
+license = "MIT OR Apache-2.0"
+name = "nrf52833-pac"
+repository = "https://github.com/blueluna/nrf52833-pac"
+edition = "2018"
+
+[dependencies]
+bare-metal = "0.2.4"
+vcell = "0.1"
+cortex-m = ">= 0.5.8, < 0.7"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.6.8"
+
+[features]
+rt = ["cortex-m-rt/device"]
