@@ -7,7 +7,7 @@ description = "Peripheral access API for nrf52833 microcontrollers"
 keywords = ["no-std", "arm", "cortex-m", "nrf52", "nrf52833"]
 license = "MIT OR Apache-2.0"
 name = "nrf52833-pac"
-repository = "https://github.com/blueluna/nrf52833-pac"
+repository = "https://github.com/nrf-rs/nrf52833-pac"
 edition = "2018"
 
 [dependencies]
