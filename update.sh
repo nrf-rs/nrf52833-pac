@@ -2,7 +2,7 @@
 set -x
 set -e
 
-# NOTE: Last executed using Rust 1.43.1
+# NOTE: Last executed using Rust 1.43.0
 
 cargo install --force --version 0.17.0 svd2rust
 cargo install --force --version 0.7.0  form
