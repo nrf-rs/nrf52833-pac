@@ -1,3 +1,5 @@
+**MOVED!** This repository has been moved to <https://github.com/nrf-rs/nrf-pacs>.
+
 # nrf52833-pac
 
 Peripheral access API for the nRF52833 microcontroller
